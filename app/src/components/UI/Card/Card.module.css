@@ -1,0 +1,52 @@
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #29272E;
+    padding: 5px 10px 5px 10px;
+}
+
+.cardContainer:hover{
+    background-color:  #26262C;
+    cursor: pointer;
+}
+
+.innerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.buttonContainer{
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainer{
+    padding-left: 5px;
+}
+
+.mainText {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.subText{
+    
+    color: rgb(255, 255, 255);
+    font-size: 9px;
+    font-weight: 400;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    margin-right: 5px;
+}

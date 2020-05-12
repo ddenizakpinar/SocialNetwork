@@ -1,0 +1,18 @@
+.button {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #ffffffda;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:hover {
+    color: white;
+}

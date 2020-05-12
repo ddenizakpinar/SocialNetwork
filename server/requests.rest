@@ -1,0 +1,42 @@
+# Register
+POST http://localhost:5000/api/user/register
+Content-Type: application/json
+
+{
+    "name": "yenikayit",
+    "email": "yenikeayit@gmail.com",
+    "password": "135456"
+}
+
+###
+
+# Login
+POST http://localhost:5000/api/user/login
+Content-Type: application/json
+
+{
+    "email": "yenikayit@gmail.com",
+    "password": "135456"
+}
+
+###
+
+#Posts
+
+GET http://localhost:5000/api/posts
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTg3YzkzNTNmNzhmNzM2ZmMzODIzN2YiLCJuYW1lIjoieWVuaWtheWl0IiwiaWF0IjoxNTg1OTU3MTk4fQ.bFPt4hVt-_iZ8M6XI61ytzHA57hF8Fvbn04cDpM9wZc
+
+###
+
+POST http://localhost:5000/api/posts
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTg3YzkzNTNmNzhmNzM2ZmMzODIzN2YiLCJuYW1lIjoieWVuaWtheWl0IiwiaWF0IjoxNTg1OTU3MTk4fQ.bFPt4hVt-_iZ8M6XI61ytzHA57hF8Fvbn04cDpM9wZc
+
+{
+    "content": "ilk post",
+    "type": 1,
+    "mediaURL": "https://i.pinimg.com/originals/c3/18/5b/c3185b5a1d2305641c972794c1f7d954.jpg",
+    "comments": []
+}
+

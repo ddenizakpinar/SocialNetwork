@@ -1,0 +1,86 @@
+.headerText {
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.text {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.submitButton {
+	border-radius: 20px;
+	border: 1px solid #B80C09;
+	background-color: #B80C09;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px 35px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	margin: 20px 0;
+}
+
+.form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+}
+
+input:focus {
+	outline: none;
+}
+
+.input {
+	background-color: #fafafa;
+	border: 1px solid #EBEBEB;
+	padding: 12px 15px;
+	margin: 10px 0;
+	width: 100%;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+.errorInput {
+	background-color: #fafafa;
+	border: solid 1px #B80C09;
+	padding: 12px 15px;
+	margin: 10px 0;
+	width: 100%;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+.previewImage {
+	border-radius: 50%;
+	height: 130px;
+	width: 130px;
+	border: 2px solid #18181B;
+}
+
+.mediaIcons {
+	font-size: 20px;
+}
+
+.mediaIcons:hover {}
+
+.plusContainer {
+	cursor: pointer;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	border-radius: 50%;
+	background-color: #B80C09;
+	padding: 12px;
+}
+
+.mediaIconsContainer {
+	margin-bottom: 16px;
+	position: relative;
+}

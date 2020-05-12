@@ -1,0 +1,22 @@
+.DropdownActive {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #18181B;
+    z-index: 1;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.75);
+    border-radius: 3px;
+}   
+
+.text{
+    color: white;
+}
+
+.title{
+    border-bottom: 1.5px solid black;
+    font-size: 12px;
+    color: #ffffff;
+    padding-bottom: 3px;
+    font-weight: 500;
+    padding: 8px;
+}

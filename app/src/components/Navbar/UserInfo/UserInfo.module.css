@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.userImg {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    padding-top: 4px;
+}
+
+.userName {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+
+.arrowIcon {
+    font-size: 18px;
+    margin-left: 10px;
+    color: #ffffffda;
+    cursor: pointer;
+}
+
+.arrowIcon:hover, .notificationIcon:hover, .friendRequestIcon:hover {
+    color: white;
+}
+
+.active {
+    color: white !important;
+}
+
+.dropdownPosition {
+    right: 20%;
+    position: absolute;
+    top: 100%;
+    min-width: 340px;
+    max-width: 340px;
+}
+
+.text {
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.notificationCount {
+    margin-right: 50px;
+}
+
+.RequestIcon {
+    font-size: 18px;
+    color: #ffffffda;
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+    padding: 5px;
+}
+
+
+.iconContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #3A3A3D;
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .wall {
+        margin-left: 12vw;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+    .wall {
+        width: 550px;
+        margin-left: 6vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .wall {
+        width: 500px;
+        margin-left: 1px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .dropdownPosition {
+        right: 0;
+        position: absolute;
+        top: 100%;
+        min-width: 100vw;
+        max-width: 100vw;
+
+    }
+    .userName{
+        font-size: 16px;
+    }
+}
+

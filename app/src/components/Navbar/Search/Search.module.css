@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.bigContainer {
+    position: absolute;
+    top: 52px;
+    right: 0;
+    width: 100%;
+}
+
+.inputStyle {
+    width: 20vw;
+    padding: 8px 0px;
+    border-radius: 3px;
+    text-indent: 10px;
+    border: none;
+    background-color: #3A3A3D;
+    color: white;
+}
+
+.dropdownPosition {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    width: 320px;
+}
+
+.inputStyle:focus{
+    border: 2px solid white;
+    background-color: #18181B;
+}
+
+.seeAll{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding: 5px 0px 5px 5px;
+}
+
+@media only screen and (max-width: 650px) {
+    .inputStyle{
+        width: 98%;
+        margin-left: 1%;
+    }
+    .dropdownPosition {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 98px;
+        width: 100%;
+        right: 0;
+    }
+}

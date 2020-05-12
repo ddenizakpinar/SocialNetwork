@@ -1,0 +1,77 @@
+.container{
+    position: relative;
+} 
+
+
+
+
+.display::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+.text {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px;
+    padding-top: 20px;
+}
+
+.cardContainer {}
+
+.chatArea {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 0px;
+}
+
+.chatAreaContainer {
+    position: fixed;
+    bottom: 0;
+    right: 290px;
+    z-index: 103;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .display{
+        width: 230px;
+    }
+    .chatAreaContainer{
+        right: 240px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+.display {
+    height: 100%;
+    position: fixed;
+    background-color: #1F1F23;
+    top: 50px;
+    right: 0;
+    width: 280px;
+    overflow: auto;
+    padding: 0 0px 0 0px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(16, 16, 19);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 1);
+}
+@media only screen and (max-width: 650px) {
+    .display{
+        z-index: 101;
+        top: 50px;
+        width: 100%;
+        height: calc(100vh - 100px);
+    }
+}

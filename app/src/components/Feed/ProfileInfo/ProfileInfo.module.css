@@ -1,0 +1,65 @@
+.cardSize {
+    margin-top: 10px;
+    height: 400px;
+    position: relative;
+    background-color: #1F1F23;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    
+}
+
+.profileImg {
+    position: absolute;
+    
+    margin-top: -65px;
+    top: 55%;
+    left: 5%;
+    height: 130px;
+    width: 130px;
+    border: 1px solid #18181B;
+    border-radius: 50%;
+}
+
+.bgImg {
+    background-color: #1F1F23;
+    height: 60%;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    color: white;
+    font-weight: 500;
+}
+
+.innerInfo{
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    align-items: center;
+}
+
+.nameText{
+    font-size: 30px;
+}
+
+.dateText{
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.friends{
+    font-size: 14px;
+}
+
+.addButton{
+    height: 30px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.friendSection{
+    display: flex;
+}

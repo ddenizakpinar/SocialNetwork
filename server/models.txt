@@ -1,0 +1,46 @@
+Users: [
+    {
+        UserID:
+        Name:
+        Email:
+        Password:
+        Date:
+        Post:[ (Array)
+            PostID1,PostID2
+        ],
+        Friends:[ (Array)
+           UserID1,UserID2
+        ]
+        FriendRequests: [ (Array)
+            UserID1,UserID2
+        ]
+        Notifications: []
+    }      
+]
+
+
+
+    
+Posts: [
+            {
+                PostID:
+                Content:
+                Type: 
+                MediaURL:
+            },
+            {
+                PostID:
+                Content:
+                Type: 
+                MediaURL:
+                Date:
+                Comments: [
+                    {
+                        CommentID:
+                        UserID:
+                        Content:
+                        Like:15
+                    }
+                ]
+            }
+        ]

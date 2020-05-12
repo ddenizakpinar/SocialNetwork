@@ -1,0 +1,154 @@
+.postContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F1F23;
+    margin-top: 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(16, 16, 19);
+}
+
+.userInfo {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 10px 5px 10px;
+}
+
+.userPicture {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.userTextContainer {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userName {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.postDate {
+    font-size: 12px;
+    color: #90909A;
+}
+
+.postImg {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contentContainer {
+    color: white;
+    padding: 0px 10px;
+    margin-bottom: 4px;
+}
+
+.contentInfo {
+    justify-content: space-between;
+    display: flex;
+    padding: 4px 10px;
+    color: #90909A;
+    font-size: 12px;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #29272E;
+    border-top: 1px solid #29272E;
+}
+
+.buttonsContainer>i {
+    font-size: 30px;
+}
+
+.contentLikeInfo {
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+.commentInput {
+    flex-grow: 1;
+    padding: 8px;
+    background-color: transparent;
+    resize: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+.contentCommentInfo {
+    display: flex;
+}
+
+.commentsContainer {
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+
+.commentInput:focus {
+    outline: none;
+}
+
+.submitButton {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 25px;
+    transition: transform 80ms ease-in;
+    width: 50%;
+}
+
+.submitButton:hover {
+    background-color: #26262C;
+}
+
+.submitButton:focus {
+    outline: none;
+}
+
+.inputContainer {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-top: 1px solid #29272E;
+    justify-content: space-between;
+    color: white;
+}
+
+.sendButton {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 6px 0px;
+    
+    transition: transform 80ms ease-in;
+}
+
+.sendButton:focus {
+    outline: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .submitButton {
+        font-size: 12px;
+        padding: 10px 5px;
+    }
+}

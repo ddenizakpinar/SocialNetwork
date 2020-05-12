@@ -1,0 +1,38 @@
+.screen {
+    height: 100%;
+    background-color: #18181B;
+}
+
+.wall {
+    width: 600px;
+    height: 100%;
+    margin-left: 20vw;
+    max-width: 600px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .wall {
+        margin-left: 12vw;
+}
+
+@media only screen and (max-width: 1024px) {
+    .wall {
+        width: 550px;
+        margin-left: 6vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .wall {
+        width: 500px;
+        margin-left: 1px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .wall {
+        width: 100%;
+        margin-left: 0;
+    }
+    }
+}

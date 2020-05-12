@@ -1,0 +1,125 @@
+.container {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    z-index: 100;
+    background-color: #18181B;
+    border-bottom: 1.5px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 70vw;
+}
+
+.logo {
+    display: flex;
+}
+
+.search {
+    display: flex;
+}
+
+.profile {
+    display: flex;
+}
+
+.logoContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.social {
+    font-weight: 700;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+.network {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.text {
+    font-size: 26px;
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bottomContainer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: #ffffffda;
+    background-color: #18181B;
+}
+
+.bottomIconButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.bottomIconContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #3A3A3D;
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomActive {
+    color: white !important;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .text {
+        font-size: 20px;
+    }
+    .navbar{
+        width: 80vw;
+    }
+  }
+
+@media only screen and (max-width: 780px) {
+    .text {
+        font-size: 20px;
+    }
+    .navbar{
+        width: 90vw;
+    }
+  }
+  
+@media only screen and (max-width: 650px) {
+    .text {
+        font-size: 20px;
+    }
+    .navbar{
+        width: 95vw;
+    }
+}
