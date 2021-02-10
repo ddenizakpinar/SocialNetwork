@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema({
     friends: {
         type: Array,
         required: false,
-        default: ["5eb96a7f6f11700017f3b082"]
+        default: ["5eb96a7f6f11700017f3b082", "5eb96a8a6f11700017f3b086"]
     },
     friendRequests: {
         type: Array,
